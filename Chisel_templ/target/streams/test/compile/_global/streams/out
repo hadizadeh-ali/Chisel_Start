@@ -1,0 +1,301 @@
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/Adder4Tests.scala:6:22: not found: type Adder4[0m
+[0m[[0m[31merror[0m] [0m[0mclass Adder4Tests(c: Adder4) extends PeekPokeTester(c) {[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/Adder4Tests.scala:6:53: no arguments allowed for nullary constructor Object: ()Object[0m
+[0m[[0m[31merror[0m] [0m[0mclass Adder4Tests(c: Adder4) extends PeekPokeTester(c) {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/Adder4Tests.scala:7:14: not found: value rnd[0m
+[0m[[0m[31merror[0m] [0m[0m  val rnd2 = rnd.nextInt(2)[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/Adder4Tests.scala:9:16: not found: value rnd[0m
+[0m[[0m[31merror[0m] [0m[0m    val rnd0 = rnd.nextInt(16)[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/Adder4Tests.scala:10:16: not found: value rnd[0m
+[0m[[0m[31merror[0m] [0m[0m    val rnd1 = rnd.nextInt(16)[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/Adder4Tests.scala:11:16: not found: value rnd[0m
+[0m[[0m[31merror[0m] [0m[0m    val rnd2 = rnd.nextInt(2)[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/Adder4Tests.scala:12:5: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m    poke(c.io.A,   rnd0)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/Adder4Tests.scala:13:5: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m    poke(c.io.B,   rnd1)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/Adder4Tests.scala:14:5: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m    poke(c.io.Cin, rnd2)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/Adder4Tests.scala:15:5: not found: value step[0m
+[0m[[0m[31merror[0m] [0m[0m    step(1)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/Adder4Tests.scala:17:5: not found: value expect[0m
+[0m[[0m[31merror[0m] [0m[0m    expect(c.io.Sum, (rsum & 0xF))[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/Adder4Tests.scala:18:5: not found: value expect[0m
+[0m[[0m[31merror[0m] [0m[0m    expect(c.io.Cout, rsum >> 4)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/Adder4Tests.scala:26:24: not found: type Adder4[0m
+[0m[[0m[31merror[0m] [0m[0m      Driver(() => new Adder4, backend)(c => new Adder4Tests(c)) should be (true)[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/AdderTests.scala:6:21: not found: type Adder[0m
+[0m[[0m[31merror[0m] [0m[0mclass AdderTests(c: Adder) extends PeekPokeTester(c) {[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/AdderTests.scala:6:51: no arguments allowed for nullary constructor Object: ()Object[0m
+[0m[[0m[31merror[0m] [0m[0mclass AdderTests(c: Adder) extends PeekPokeTester(c) {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/AdderTests.scala:8:16: not found: value rnd[0m
+[0m[[0m[31merror[0m] [0m[0m    val rnd0 = rnd.nextInt(1 << c.n)[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/AdderTests.scala:9:16: not found: value rnd[0m
+[0m[[0m[31merror[0m] [0m[0m    val rnd1 = rnd.nextInt(1 << c.n)[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/AdderTests.scala:10:16: not found: value rnd[0m
+[0m[[0m[31merror[0m] [0m[0m    val rnd2 = rnd.nextInt(2)[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/AdderTests.scala:12:5: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m    poke(c.io.A, rnd0)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/AdderTests.scala:13:5: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m    poke(c.io.B, rnd1)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/AdderTests.scala:14:5: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m    poke(c.io.Cin, rnd2)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/AdderTests.scala:15:5: not found: value step[0m
+[0m[[0m[31merror[0m] [0m[0m    step(1)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/AdderTests.scala:19:5: not found: value expect[0m
+[0m[[0m[31merror[0m] [0m[0m    expect(c.io.Sum, rsum &  mask)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/AdderTests.scala:20:5: not found: value expect[0m
+[0m[[0m[31merror[0m] [0m[0m    expect(c.io.Cout,  ((1 << c.n) & rsum) >> c.n)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/AdderTests.scala:28:24: not found: type Adder[0m
+[0m[[0m[31merror[0m] [0m[0m      Driver(() => new Adder(8))(c => new AdderTests(c)) should be (true)[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/ByteSelectorTests.scala:6:28: not found: type ByteSelector[0m
+[0m[[0m[31merror[0m] [0m[0mclass ByteSelectorTests(c: ByteSelector) extends PeekPokeTester(c) {[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/ByteSelectorTests.scala:6:65: no arguments allowed for nullary constructor Object: ()Object[0m
+[0m[[0m[31merror[0m] [0m[0mclass ByteSelectorTests(c: ByteSelector) extends PeekPokeTester(c) {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/ByteSelectorTests.scala:9:5: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m    poke(c.io.in,     test_in)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/ByteSelectorTests.scala:10:5: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m    poke(c.io.offset, t)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/ByteSelectorTests.scala:11:5: not found: value step[0m
+[0m[[0m[31merror[0m] [0m[0m    step(1)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/ByteSelectorTests.scala:12:5: not found: value expect[0m
+[0m[[0m[31merror[0m] [0m[0m    expect(c.io.out, (test_in >> (t * 8)) & 0xFF)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/ByteSelectorTests.scala:20:24: not found: type ByteSelector[0m
+[0m[[0m[31merror[0m] [0m[0m      Driver(() => new ByteSelector, backend)((c) => new ByteSelectorTests(c)) should be (true)[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/CombinationalTests.scala:6:29: not found: type Combinational[0m
+[0m[[0m[31merror[0m] [0m[0mclass CombinationalTests(c: Combinational) extends PeekPokeTester(c) {[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/CombinationalTests.scala:6:67: no arguments allowed for nullary constructor Object: ()Object[0m
+[0m[[0m[31merror[0m] [0m[0mclass CombinationalTests(c: Combinational) extends PeekPokeTester(c) {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/CombinationalTests.scala:9:13: not found: value rnd[0m
+[0m[[0m[31merror[0m] [0m[0m    val x = rnd.nextInt(maxInt)[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/CombinationalTests.scala:10:13: not found: value rnd[0m
+[0m[[0m[31merror[0m] [0m[0m    val y = rnd.nextInt(maxInt)[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/CombinationalTests.scala:11:5: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m    poke(c.io.x, x)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/CombinationalTests.scala:12:5: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m    poke(c.io.y, y)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/CombinationalTests.scala:13:5: not found: value step[0m
+[0m[[0m[31merror[0m] [0m[0m    step(1)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/CombinationalTests.scala:14:5: not found: value expect[0m
+[0m[[0m[31merror[0m] [0m[0m    expect(c.io.z, (x + y)&(maxInt-1))[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/CombinationalTests.scala:22:24: not found: type Combinational[0m
+[0m[[0m[31merror[0m] [0m[0m      Driver(() => new Combinational, backend)(c => new CombinationalTests(c)) should be (true)[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/DarkenTests.scala:6:22: not found: type Darken[0m
+[0m[[0m[31merror[0m] [0m[0mclass DarkenTests(c: Darken, infile: java.io.InputStream, outfilename: String) extends PeekPokeTester(c) {[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/DarkenTests.scala:6:103: no arguments allowed for nullary constructor Object: ()Object[0m
+[0m[[0m[31merror[0m] [0m[0mclass DarkenTests(c: Darken, infile: java.io.InputStream, outfilename: String) extends PeekPokeTester(c) {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/DarkenTests.scala:9:3: not found: value step[0m
+[0m[[0m[31merror[0m] [0m[0m  step(1)[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/DarkenTests.scala:13:5: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m    poke(c.io.in, in)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/DarkenTests.scala:14:5: not found: value step[0m
+[0m[[0m[31merror[0m] [0m[0m    step(1)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/DarkenTests.scala:15:15: not found: value peek[0m
+[0m[[0m[31merror[0m] [0m[0m    val out = peek(c.io.out)[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/DarkenTests.scala:25:24: not found: type Darken[0m
+[0m[[0m[31merror[0m] [0m[0m      Driver(() => new Darken(), backend)([0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/EnableShiftRegisterTests.scala:6:35: not found: type EnableShiftRegister[0m
+[0m[[0m[31merror[0m] [0m[0mclass EnableShiftRegisterTests(c: EnableShiftRegister) extends PeekPokeTester(c) {[0m
+[0m[[0m[31merror[0m] [0m[0m                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/EnableShiftRegisterTests.scala:6:79: no arguments allowed for nullary constructor Object: ()Object[0m
+[0m[[0m[31merror[0m] [0m[0mclass EnableShiftRegisterTests(c: EnableShiftRegister) extends PeekPokeTester(c) {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/EnableShiftRegisterTests.scala:9:17: not found: value rnd[0m
+[0m[[0m[31merror[0m] [0m[0m    val in    = rnd.nextInt(16)[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/EnableShiftRegisterTests.scala:10:17: not found: value rnd[0m
+[0m[[0m[31merror[0m] [0m[0m    val shift = rnd.nextInt(2)[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/EnableShiftRegisterTests.scala:11:5: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m    poke(c.io.in,    in)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/EnableShiftRegisterTests.scala:12:5: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m    poke(c.io.shift, shift)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/EnableShiftRegisterTests.scala:13:5: not found: value step[0m
+[0m[[0m[31merror[0m] [0m[0m    step(1)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/EnableShiftRegisterTests.scala:19:5: not found: value expect[0m
+[0m[[0m[31merror[0m] [0m[0m    expect(c.io.out, reg(3))[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/EnableShiftRegisterTests.scala:27:24: not found: type EnableShiftRegister[0m
+[0m[[0m[31merror[0m] [0m[0m      Driver(() => new EnableShiftRegister, backend)(c => new EnableShiftRegisterTests(c)) should be (true)[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/FullAdderTests.scala:6:25: not found: type FullAdder[0m
+[0m[[0m[31merror[0m] [0m[0mclass FullAdderTests(c: FullAdder) extends PeekPokeTester(c) {[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/FullAdderTests.scala:6:59: no arguments allowed for nullary constructor Object: ()Object[0m
+[0m[[0m[31merror[0m] [0m[0mclass FullAdderTests(c: FullAdder) extends PeekPokeTester(c) {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/FullAdderTests.scala:8:16: not found: value rnd[0m
+[0m[[0m[31merror[0m] [0m[0m    val a    = rnd.nextInt(2)[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/FullAdderTests.scala:9:16: not found: value rnd[0m
+[0m[[0m[31merror[0m] [0m[0m    val b    = rnd.nextInt(2)[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/FullAdderTests.scala:10:16: not found: value rnd[0m
+[0m[[0m[31merror[0m] [0m[0m    val cin  = rnd.nextInt(2)[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/FullAdderTests.scala:14:5: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m    poke(c.io.a, a)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/FullAdderTests.scala:15:5: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m    poke(c.io.b, b)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/FullAdderTests.scala:16:5: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m    poke(c.io.cin, cin)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/FullAdderTests.scala:17:5: not found: value step[0m
+[0m[[0m[31merror[0m] [0m[0m    step(1)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/FullAdderTests.scala:18:5: not found: value expect[0m
+[0m[[0m[31merror[0m] [0m[0m    expect(c.io.sum, sum)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/FullAdderTests.scala:19:5: not found: value expect[0m
+[0m[[0m[31merror[0m] [0m[0m    expect(c.io.cout, cout)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/FullAdderTests.scala:27:24: not found: type FullAdder[0m
+[0m[[0m[31merror[0m] [0m[0m      Driver(() => new FullAdder, backend)((c) => new FullAdderTests(c)) should be (true)[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/FunctionalityTests.scala:6:29: not found: type Functionality[0m
+[0m[[0m[31merror[0m] [0m[0mclass FunctionalityTests(c: Functionality) extends PeekPokeTester(c) {[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/FunctionalityTests.scala:6:67: no arguments allowed for nullary constructor Object: ()Object[0m
+[0m[[0m[31merror[0m] [0m[0mclass FunctionalityTests(c: Functionality) extends PeekPokeTester(c) {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/FunctionalityTests.scala:9:13: not found: value rnd[0m
+[0m[[0m[31merror[0m] [0m[0m    val x = rnd.nextInt(maxInt)[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/FunctionalityTests.scala:10:13: not found: value rnd[0m
+[0m[[0m[31merror[0m] [0m[0m    val y = rnd.nextInt(maxInt)[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/FunctionalityTests.scala:11:5: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m    poke(c.io.x, x)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/FunctionalityTests.scala:12:5: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m    poke(c.io.y, y)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/FunctionalityTests.scala:13:5: not found: value step[0m
+[0m[[0m[31merror[0m] [0m[0m    step(1)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/FunctionalityTests.scala:14:5: not found: value expect[0m
+[0m[[0m[31merror[0m] [0m[0m    expect(c.io.z, (x & y) | (~x & y))[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/FunctionalityTests.scala:22:24: not found: type Functionality[0m
+[0m[[0m[31merror[0m] [0m[0m      Driver(() => new Functionality, backend)((c) => new FunctionalityTests(c)) should be (true)[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/GCDTests.scala:6:19: not found: type GCD[0m
+[0m[[0m[31merror[0m] [0m[0mclass GCDTests(c: GCD) extends PeekPokeTester(c) {[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/GCDTests.scala:6:47: no arguments allowed for nullary constructor Object: ()Object[0m
+[0m[[0m[31merror[0m] [0m[0mclass GCDTests(c: GCD) extends PeekPokeTester(c) {[0m
+[0m[[0m[31merror[0m] [0m[0m                                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/GCDTests.scala:12:5: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m    poke(c.io.a, inputs(i)._1)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/GCDTests.scala:13:5: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m    poke(c.io.b, inputs(i)._2)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/GCDTests.scala:15:5: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m    poke(c.io.load, 1)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/GCDTests.scala:16:5: not found: value step[0m
+[0m[[0m[31merror[0m] [0m[0m    step(1)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/GCDTests.scala:17:5: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m    poke(c.io.load, 0)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/GCDTests.scala:22:15: not found: value peek[0m
+[0m[[0m[31merror[0m] [0m[0m      ready = peek(c.io.valid) == 1[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/GCDTests.scala:23:7: not found: value step[0m
+[0m[[0m[31merror[0m] [0m[0m      step(1)[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/GCDTests.scala:24:14: not found: value t[0m
+[0m[[0m[31merror[0m] [0m[0m    } while (t < 100 && ! ready)[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/GCDTests.scala:26:5: not found: value expect[0m
+[0m[[0m[31merror[0m] [0m[0m    expect(c.io.out, outputs(i))[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/GCDTests.scala:28:12: not found: value t[0m
+[0m[[0m[31merror[0m] [0m[0m  } while (t < 100 && i < 3)[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/GCDTests.scala:30:7: not found: value t[0m
+[0m[[0m[31merror[0m] [0m[0m  if (t >= 100) fail[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/GCDTests.scala:30:17: not found: value fail[0m
+[0m[[0m[31merror[0m] [0m[0m  if (t >= 100) fail[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/GCDTests.scala:38:24: not found: type GCD[0m
+[0m[[0m[31merror[0m] [0m[0m      Driver(() => new GCD, backend)((c) => new GCDTests(c)) should be (true)[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/HiLoMultiplierTests.scala:6:30: not found: type HiLoMultiplier[0m
+[0m[[0m[31merror[0m] [0m[0mclass HiLoMultiplierTests(c: HiLoMultiplier) extends PeekPokeTester(c) {[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/HiLoMultiplierTests.scala:6:69: no arguments allowed for nullary constructor Object: ()Object[0m
+[0m[[0m[31merror[0m] [0m[0mclass HiLoMultiplierTests(c: HiLoMultiplier) extends PeekPokeTester(c) {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/HiLoMultiplierTests.scala:8:16: not found: value rnd[0m
+[0m[[0m[31merror[0m] [0m[0m    val rnd0 = rnd.nextInt(65535)[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/HiLoMultiplierTests.scala:9:16: not found: value rnd[0m
+[0m[[0m[31merror[0m] [0m[0m    val rnd1 = rnd.nextInt(65535)[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/HiLoMultiplierTests.scala:11:5: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m    poke(c.io.A, rnd0)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/HiLoMultiplierTests.scala:12:5: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m    poke(c.io.B, rnd1)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadizadeh/codes/Chisel_5/chisel-tutorial/src/test/scala/Xexamples/HiLoMultiplierTests.scala:13:5: not found: value step[0m
+[0m[[0m[31merror[0m] [0m[0m    step(1)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m268 errors found[0m

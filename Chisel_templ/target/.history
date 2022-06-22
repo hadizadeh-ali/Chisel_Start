@@ -1,0 +1,13 @@
+test:runMain myProject.Launcher FirstModule
+exit
+test:runMain myProject.Launcher FirstModule
+exit
+test:runMain myProject.Launcher FIrstModule
+test:runMain myProject.Launcher FirstModule
+exit
+test:runMain myProject.Launcher FirstModule
+exit
+test:runMain myProject.Launcher FirstModule
+exit
+test:runMain myProject.Launcher FirstModule
+exit

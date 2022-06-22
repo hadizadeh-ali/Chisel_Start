@@ -1,0 +1,27 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /home/hadizadeh/codes/Chisel_5/chisel-tutorial/target/scala-2.12/chisel-tutorial_2.12-3.3.0-tests.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	in.im24[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hadizadeh/codes/Chisel_5/chisel-tutorial/target/scala-2.12/test-classes/in.im24[0m
+[0m[[0m[0mdebug[0m] [0m[0m	in.wav[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hadizadeh/codes/Chisel_5/chisel-tutorial/target/scala-2.12/test-classes/in.wav[0m
+[0m[[0m[0mdebug[0m] [0m[0m	utils[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hadizadeh/codes/Chisel_5/chisel-tutorial/target/scala-2.12/test-classes/utils[0m
+[0m[[0m[0mdebug[0m] [0m[0m	utils/OptionsCopy$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hadizadeh/codes/Chisel_5/chisel-tutorial/target/scala-2.12/test-classes/utils/OptionsCopy$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	utils/TutorialRunner.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hadizadeh/codes/Chisel_5/chisel-tutorial/target/scala-2.12/test-classes/utils/TutorialRunner.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	utils/TutorialRunner$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hadizadeh/codes/Chisel_5/chisel-tutorial/target/scala-2.12/test-classes/utils/TutorialRunner$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	utils/OptionsCopy.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hadizadeh/codes/Chisel_5/chisel-tutorial/target/scala-2.12/test-classes/utils/OptionsCopy.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	utils/OptionsCopy$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hadizadeh/codes/Chisel_5/chisel-tutorial/target/scala-2.12/test-classes/utils/OptionsCopy$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	myProject[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hadizadeh/codes/Chisel_5/chisel-tutorial/target/scala-2.12/test-classes/myProject[0m
+[0m[[0m[0mdebug[0m] [0m[0m	myProject/Launcher$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hadizadeh/codes/Chisel_5/chisel-tutorial/target/scala-2.12/test-classes/myProject/Launcher$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	myProject/FirstModuleTB.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hadizadeh/codes/Chisel_5/chisel-tutorial/target/scala-2.12/test-classes/myProject/FirstModuleTB.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	myProject/Launcher.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/hadizadeh/codes/Chisel_5/chisel-tutorial/target/scala-2.12/test-classes/myProject/Launcher.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

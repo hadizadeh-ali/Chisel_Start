@@ -1,0 +1,36 @@
+[
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~ByteSelector|ByteSelector>io_out",
+    "sources":[
+      "~ByteSelector|ByteSelector>io_offset",
+      "~ByteSelector|ByteSelector>io_in"
+    ]
+  },
+  {
+    "class":"logger.LogLevelAnnotation",
+    "globalLogLevel":{
+      
+    }
+  },
+  {
+    "class":"firrtl.options.TargetDirAnnotation",
+    "directory":"test_run_dir/examples/ByteSelector"
+  },
+  {
+    "class":"firrtl.stage.phases.DriverCompatibility$TopNameAnnotation",
+    "topName":"ByteSelector"
+  },
+  {
+    "class":"firrtl.options.OutputAnnotationFileAnnotation",
+    "file":"ByteSelector"
+  },
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.VerilogEmitter"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"test_run_dir/examples/ByteSelector"
+  }
+]
